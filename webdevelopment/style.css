@@ -12,3 +12,18 @@ p {
   color: #071231;
   font-size: 16px;
 }
+
+.Hero {
+    background-color: #90A6FE;
+    padding: 100px 10px;
+}
+
+.Hero a {
+    color: #0A3AFA;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.Hero a:hover {
+    color: #071231;
+}
