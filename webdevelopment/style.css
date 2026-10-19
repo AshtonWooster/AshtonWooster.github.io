@@ -1,3 +1,12 @@
+/* 
+  Ashton Wooster
+  10/18/26
+  Style CSS sheet
+
+  Pseudo Classes used for: a element hover, first letter size increase, and indentations.
+  Drop Down menu is styled 
+*/
+
 h1 {
   color: #071231;
   font-size: 32px;
@@ -26,6 +35,16 @@ p {
 
 .Hero a:hover {
   color: #071231;
+}
+
+.Reflection p::first-letter {
+  font-size: 20px;
+}
+
+.Reflection p::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
 }
 
 .Profile a {
