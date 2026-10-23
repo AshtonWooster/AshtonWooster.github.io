@@ -77,3 +77,16 @@ li {
 li:hover {
   color: #0A3AFA;
 }
+
+.Profile img {
+  width: 200px;
+  margin: 4px;
+  border-radius: 8px;
+  border: 3px solid #071231;
+}
+
+.AboutInfo video {
+  border-radius: 8px;
+  border: 3px solid #071231;
+  margin: 5px;
+}
