@@ -90,3 +90,18 @@ li:hover {
   border: 3px solid #071231;
   margin: 5px;
 }
+
+@media print {
+  header, nav {
+    display: none;
+  }
+
+  p {
+    color: #000000;
+    font-family: sans-serif;
+  }
+
+  @page {
+    margin: 1in;
+  }
+}
