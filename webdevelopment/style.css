@@ -92,8 +92,12 @@ li:hover {
 }
 
 @media print {
-  header, nav {
+  header * {
     display: none;
+  }
+
+  footer {
+    display: block;
   }
 
   p {
