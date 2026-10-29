@@ -92,7 +92,7 @@ li:hover {
 }
 
 @media print {
-  header * {
+  header *, a, img {
     display: none;
   }
 
