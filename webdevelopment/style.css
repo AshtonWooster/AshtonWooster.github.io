@@ -92,10 +92,13 @@ li:hover {
 }
 
 footer {
+  min-height: 50px;
   background-image: url('media/footerback.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  align-items: center;
 }
 
 footer p {
@@ -103,6 +106,7 @@ footer p {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  width: 100%;
 }
 
 footer p img {
