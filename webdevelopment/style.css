@@ -116,8 +116,8 @@ footer p img {
 }
 
 @media print {
-  header *, a, img, video, main a {
-    display: none;
+  header *, a, img, video, main a, .Resume {
+    display: none !important;
   }
 
   footer {
