@@ -91,8 +91,28 @@ li:hover {
   margin: 5px;
 }
 
+footer {
+  background-image: url('media/footerback.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer p {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+footer p img {
+  height: 20px;
+  width: auto;
+  vertical-align: middle;
+}
+
 @media print {
-  header *, a, img, video {
+  header *, a, img, video, main a {
     display: none;
   }
 
