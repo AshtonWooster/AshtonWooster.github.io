@@ -133,3 +133,47 @@ footer p img {
     margin: 1in;
   }
 }
+
+/* New styling starts here for contact form */
+form label {
+  color: #071231;
+  font-size: 18px;
+}
+
+form {
+  background-color: #90A6FE;
+  border: 2px solid #071231;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+form select {
+  max-width: 200px;
+}
+
+form input {
+  max-width: 260px;
+}
+
+form textarea {
+  max-width: 90%;
+}
+
+form button {
+  padding: 8px;
+  margin: 10px;
+  min-width: 14%;
+  border: 1px solid #071231;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  color: #071231;
+}
