@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Name: Ashton Wooster
+  Date: 11/3/26
+  Course: IT4355
+  Description: Contact Page
+-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Ashton Wooster</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+  <header>
+    <img src="media/logo.png" alt="Site Logo">
+    <!-- Navigation is here -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Career</a></li>
+        <li><a href="reflection.html">Reflection</a>
+          <ul>
+            <li>Summary</li>
+            <li>Research</li>
+            <li>Leadership</li>
+            <li>Conclusion</li>
+          </ul>
+        </li>
+        <li><a href="index.html">Contact Me</a></li>
+      </ul>
+    </nav>
+    <p>Ashton Wooster</p>
+  </header>
+  <!-- New Content is here -->
+  <h1>Contact Me</h1>
+  
+  <form action="mailto:adwfw9@umsystem.edu?Subject=Contact%20Submission" method="post" enctype="text/plain">
+    <div>
+      <label for="title">Title</label>
+      <select id="title" name="title" required>
+        <option value="" disabled selected>Please select a title</option>
+        <option value="Mr.">Mr.</option>
+        <option value="Ms.">Ms.</option>
+        <option value="Dr.">Dr.</option>
+        <option value="Mrs.">Mrs.</option>
+      </select>
+    </div>
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Please enter your full name" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Please enter your email" required>
+    </div>
+    <div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Please enter your message" required></textarea>
+    </div>
+    <div>
+      <label for="sender">I am a...</label>
+      <select id="sender" name="sender" required>
+        <option value="" disabled selected>Please select an option</option>
+        <option value="Recruiter">Recruiter</option>
+        <option value="Professor">Professor</option>
+        <option value="Student">Student</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <button type="submit" class="submit">Submit</button>
+  </form>
+  <footer>
+    <p>
+      <span>Ashton Wooster</span>
+      <span><img src="media/phone.png" alt="Phone Icon">(816)-674-5696</span>
+      <span><img src="media/email.png" alt="Email Icon">adwfw9@umsystem.edu</span>
+    </p>
+  </footer>
+</body>
+
+</html>
