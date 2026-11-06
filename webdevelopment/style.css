@@ -101,6 +101,10 @@ li:hover {
 
 .Profile p {
   text-align: justify;
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  justify-items: center;
 }
 
 .AboutInfo video {
