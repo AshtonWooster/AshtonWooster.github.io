@@ -54,10 +54,14 @@ p {
 
   display:inline-block;
   padding: 10px 10px;
-  margin: 10px;
   border: 3px solid #071231;
   background-color: #90A6FE;
   border-radius: 4px;
+
+  max-width: 180px;
+
+  justify-self: center;
+  text-align: center;
 }
 
 .Profile a:hover {
@@ -83,12 +87,38 @@ li:hover {
   margin: 4px;
   border-radius: 8px;
   border: 3px solid #071231;
+  justify-self: center;
+  align-self: center;
+}
+
+.Profile {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+}
+
+.Profile p {
+  margin-right: 15px;
+  text-align: justify;
 }
 
 .AboutInfo video {
   border-radius: 8px;
   border: 3px solid #071231;
   margin: 5px;
+}
+
+.AboutInfo {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+}
+
+.AboutInfo ul {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
