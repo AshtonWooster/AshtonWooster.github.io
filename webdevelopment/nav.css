@@ -89,3 +89,19 @@ nav ul > li ul {
 nav > ul > li:hover > ul {
   display: block;
 }
+
+/* Hamburger icon */
+.Hamburger {
+  width: 50px;
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .Hamburger {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
